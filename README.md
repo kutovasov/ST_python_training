@@ -1,1 +1,1 @@
-# ST_python_training
+# New_Rep //Software Testing: Python lessons for QA engineers
