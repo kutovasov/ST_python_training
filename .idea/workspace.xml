@@ -11,9 +11,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_add_record.py">
+        <entry file="file://$PROJECT_DIR$/test_add_note.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="782">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
               </folding>
@@ -23,13 +24,28 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="248" />
-    <option name="y" value="8" />
-    <option name="width" value="1400" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test_add_record_2.py" />
+        <option value="$PROJECT_DIR$/test_add_note.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2062" />
+    <option name="y" value="30" />
+    <option name="width" value="1663" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
@@ -53,7 +69,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Git-2.22.0-64-bit.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -66,6 +83,75 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest in test_add_note.py">
+    <configuration name="Unittests in test_add_record.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ST_python_training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_record.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_add_record_2.UntitledTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="ST_python_training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_add_record_2.UntitledTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_add_note.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="ST_python_training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_note.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_add_record_2.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="ST_python_training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_record_2.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest in test_add_note.py" />
+        <item itemvalue="Python tests.pytest in test_add_record_2.py" />
+        <item itemvalue="Python tests.pytest for test_add_record_2.UntitledTestCase" />
+        <item itemvalue="Python tests.Unittests in test_add_record.py" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -80,21 +166,53 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_test_add_note_py - 2019.07.09 at 17h 50m 39s.xml">
+      <configuration name="pytest in test_add_note.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_note_py - 2019.07.09 at 17h 51m 11s.xml">
+      <configuration name="pytest in test_add_note.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_note_py - 2019.07.09 at 17h 51m 47s.xml">
+      <configuration name="pytest in test_add_note.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_note_py - 2019.07.09 at 17h 58m 00s.xml">
+      <configuration name="pytest in test_add_note.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_note_py - 2019.07.09 at 17h 58m 43s.xml">
+      <configuration name="pytest in test_add_note.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_note_py - 2019.07.09 at 17h 59m 59s.xml">
+      <configuration name="pytest in test_add_note.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_note_py - 2019.07.09 at 18h 03m 06s.xml">
+      <configuration name="pytest in test_add_note.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_note_py - 2019.07.09 at 18h 08m 33s.xml">
+      <configuration name="pytest in test_add_note.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_note_py - 2019.07.09 at 18h 09m 16s.xml">
+      <configuration name="pytest in test_add_note.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_note_py - 2019.07.09 at 18h 10m 30s.xml">
+      <configuration name="pytest in test_add_note.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" anchor="bottom" id="Event Log" side_tool="true" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.2036923" side_tool="true" weight="0.3298731" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7963077" visible="true" weight="0.468039" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -106,7 +224,38 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test_add_record.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#24#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Tests/test_Sberdata_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret line="81" column="112" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="112" />
+          <folding>
+            <element signature="e#64#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_add_record_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <element signature="e#24#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_add_note.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
           </folding>
