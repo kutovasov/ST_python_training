@@ -53,6 +53,13 @@ class UntitledTestCase(unittest.TestCase):
         self.return_to_notes_page(driver)
         self.logout(driver)
 
+    def test_add_empty_note(self):
+        driver = self.driver
+        self.open_home_page(driver)
+        self.login(driver, username="kv-rnd@mail.ru", password="7Art9802")
+        self.create_note(driver, name="")
+        self.return_to_notes_page(driver)
+        self.logout(driver)
 
     def tearDown(self):
         self.driver.quit()
