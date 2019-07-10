@@ -10,21 +10,22 @@ class UntitledTestCase(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
 
-    def test_add_note(self):
-        driver = self.driver
-        # Open home page
+    def open_home_page(self, driver):
         driver.get("https://evernote.com/intl/ru/#")
-        # login
+
+    def login(self, driver, username, password):
         driver.find_element_by_link_text(u"Вход").click()
         time.sleep(0)
         driver.find_element_by_id("username").clear()
-        driver.find_element_by_id("username").send_keys("kv-rnd@mail.ru")
+        driver.find_element_by_id("username").send_keys(username)
         driver.find_element_by_id("loginButton").click()
         time.sleep(1)
         driver.find_element_by_id("password").clear()
-        driver.find_element_by_id("password").send_keys("7Art9802")
+        driver.find_element_by_id("password").send_keys(password)
         driver.find_element_by_id("loginButton").click()
         time.sleep(3)
+
+    def create_note(self, driver, name):
         # init note creation
         driver.find_element_by_class_name("dropdown2").click()
         time.sleep(1)
@@ -32,15 +33,26 @@ class UntitledTestCase(unittest.TestCase):
         time.sleep(1)
         # note creation
         driver.find_element_by_id("qa-NOTE_EDITOR_TITLE").clear()
-        driver.find_element_by_id("qa-NOTE_EDITOR_TITLE").send_keys("test")
+        driver.find_element_by_id("qa-NOTE_EDITOR_TITLE").send_keys(name)
         time.sleep(1)
         driver.find_element_by_id("qa-NOTE_EDITOR_TITLE").send_keys(Keys.ENTER)
-        # return to all notes page
+
+    def return_to_notes_page(self, driver):
         driver.find_element_by_id("qa-NAV_ALL_NOTES").click()
-        # logout
+
+    def logout(self, driver):
         driver.find_element_by_id("qa-NAV_USER").click()
         driver.find_element_by_id("qa-ACCOUNT_DROPDOWN_LOGOUT").click()
-        time.sleep(3)
+        time.sleep(2)
+
+    def test_add_note(self):
+        driver = self.driver
+        self.open_home_page(driver)
+        self.login(driver, username="kv-rnd@mail.ru", password="7Art9802")
+        self.create_note(driver, name="test")
+        self.return_to_notes_page(driver)
+        self.logout(driver)
+
 
     def tearDown(self):
         self.driver.quit()

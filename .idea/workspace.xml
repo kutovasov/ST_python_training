@@ -8,13 +8,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ST_python_training" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_add_note.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="205">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
               </folding>
@@ -43,8 +46,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2062" />
-    <option name="y" value="30" />
+    <option name="x" value="2076" />
     <option name="width" value="1663" />
     <option name="height" value="1000" />
   </component>
@@ -167,9 +169,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_add_note_py - 2019.07.09 at 17h 50m 39s.xml">
-      <configuration name="pytest in test_add_note.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_add_note_py - 2019.07.09 at 17h 51m 11s.xml">
       <configuration name="pytest in test_add_note.py" configurationId="tests" />
     </history-entry>
@@ -197,21 +196,24 @@
     <history-entry file="pytest_in_test_add_note_py - 2019.07.09 at 18h 10m 30s.xml">
       <configuration name="pytest in test_add_note.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_add_note_py - 2019.07.10 at 08h 51m 44s.xml">
+      <configuration name="pytest in test_add_note.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" sideWeight="0.50080776" side_tool="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" weight="0.24973656" />
       <window_info anchor="bottom" id="Version Control" weight="0.32936078" />
       <window_info anchor="bottom" id="Python Console" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.2036923" side_tool="true" weight="0.3298731" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7963077" visible="true" weight="0.468039" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7963077" visible="true" weight="0.468039" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -254,8 +256,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_add_note.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="205">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
           </folding>
