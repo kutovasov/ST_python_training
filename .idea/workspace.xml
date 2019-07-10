@@ -16,11 +16,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_add_note.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/group.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -41,12 +50,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test_add_record_2.py" />
+        <option value="$PROJECT_DIR$/group.py" />
         <option value="$PROJECT_DIR$/test_add_note.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2076" />
+    <option name="x" value="2001" />
+    <option name="y" value="9" />
     <option name="width" value="1663" />
     <option name="height" value="1000" />
   </component>
@@ -71,7 +82,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Git-2.22.0-64-bit.exe" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Git-2.22.0-64-bit.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -169,24 +180,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_add_note_py - 2019.07.09 at 17h 51m 11s.xml">
-      <configuration name="pytest in test_add_note.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_add_note_py - 2019.07.09 at 17h 51m 47s.xml">
-      <configuration name="pytest in test_add_note.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_add_note_py - 2019.07.09 at 17h 58m 00s.xml">
-      <configuration name="pytest in test_add_note.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_add_note_py - 2019.07.09 at 17h 58m 43s.xml">
-      <configuration name="pytest in test_add_note.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_add_note_py - 2019.07.09 at 17h 59m 59s.xml">
-      <configuration name="pytest in test_add_note.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_add_note_py - 2019.07.09 at 18h 03m 06s.xml">
-      <configuration name="pytest in test_add_note.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_add_note_py - 2019.07.09 at 18h 08m 33s.xml">
       <configuration name="pytest in test_add_note.py" configurationId="tests" />
     </history-entry>
@@ -197,6 +190,24 @@
       <configuration name="pytest in test_add_note.py" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_in_test_add_note_py - 2019.07.10 at 08h 51m 44s.xml">
+      <configuration name="pytest in test_add_note.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_note_py - 2019.07.10 at 15h 40m 03s.xml">
+      <configuration name="pytest in test_add_note.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_note_py - 2019.07.10 at 15h 42m 09s.xml">
+      <configuration name="pytest in test_add_note.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_note_py - 2019.07.10 at 15h 44m 17s.xml">
+      <configuration name="pytest in test_add_note.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_note_py - 2019.07.10 at 18h 15m 56s.xml">
+      <configuration name="pytest in test_add_note.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_note_py - 2019.07.10 at 18h 21m 19s.xml">
+      <configuration name="pytest in test_add_note.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_add_note_py - 2019.07.10 at 18h 22m 59s.xml">
       <configuration name="pytest in test_add_note.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -213,7 +224,7 @@
       <window_info anchor="bottom" id="Event Log" sideWeight="0.2036923" side_tool="true" weight="0.3298731" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7963077" visible="true" weight="0.468039" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7963077" visible="true" weight="0.312026" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -254,10 +265,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_add_note.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
           </folding>

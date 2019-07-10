@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import unittest
 import time
+from group import Group
 
 
 class UntitledTestCase(unittest.TestCase):
@@ -25,7 +26,7 @@ class UntitledTestCase(unittest.TestCase):
         driver.find_element_by_id("loginButton").click()
         time.sleep(3)
 
-    def create_note(self, driver, name):
+    def create_note(self, driver, group):
         # init note creation
         driver.find_element_by_class_name("dropdown2").click()
         time.sleep(1)
@@ -33,9 +34,9 @@ class UntitledTestCase(unittest.TestCase):
         time.sleep(1)
         # note creation
         driver.find_element_by_id("qa-NOTE_EDITOR_TITLE").clear()
-        driver.find_element_by_id("qa-NOTE_EDITOR_TITLE").send_keys(name)
-        time.sleep(1)
+        driver.find_element_by_id("qa-NOTE_EDITOR_TITLE").send_keys(group.name)
         driver.find_element_by_id("qa-NOTE_EDITOR_TITLE").send_keys(Keys.ENTER)
+        time.sleep(1)
 
     def return_to_notes_page(self, driver):
         driver.find_element_by_id("qa-NAV_ALL_NOTES").click()
@@ -49,7 +50,7 @@ class UntitledTestCase(unittest.TestCase):
         driver = self.driver
         self.open_home_page(driver)
         self.login(driver, username="kv-rnd@mail.ru", password="7Art9802")
-        self.create_note(driver, name="test")
+        self.create_note(driver, Group(name="test"))
         self.return_to_notes_page(driver)
         self.logout(driver)
 
@@ -57,7 +58,7 @@ class UntitledTestCase(unittest.TestCase):
         driver = self.driver
         self.open_home_page(driver)
         self.login(driver, username="kv-rnd@mail.ru", password="7Art9802")
-        self.create_note(driver, name="")
+        self.create_note(driver, Group(name=""))
         self.return_to_notes_page(driver)
         self.logout(driver)
 
