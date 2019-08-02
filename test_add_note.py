@@ -12,11 +12,11 @@ class UntitledTestCase(unittest.TestCase):
         self.driver = webdriver.Chrome()
 
     def open_home_page(self, driver):
-        driver.get("https://evernote.com/intl/ru/#")
+        driver.get("https://evernote.com/intl/ru/")
 
     def login(self, driver, username, password):
-        driver.find_element_by_link_text(u"Вход").click()
-        time.sleep(0)
+        driver.find_element_by_link_text(u"Войти").click()
+        time.sleep(1)
         driver.find_element_by_id("username").clear()
         driver.find_element_by_id("username").send_keys(username)
         driver.find_element_by_id("loginButton").click()

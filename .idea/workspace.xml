@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f40c752-1704-4d37-9c67-41fdbb597d03" name="Default Changelist" comment="" />
+    <list default="true" id="3f40c752-1704-4d37-9c67-41fdbb597d03" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_add_note.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_note.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,12 +15,12 @@
     <favorites_list name="ST_python_training" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_add_note.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="362">
+              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
               </folding>
@@ -29,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/group.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -56,17 +59,16 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2001" />
-    <option name="y" value="9" />
-    <option name="width" value="1663" />
-    <option name="height" value="1000" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -78,11 +80,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Git-2.22.0-64-bit.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -97,7 +100,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_add_note.py">
+  <component name="RunManager" selected="Python tests.pytest for test_add_note.UntitledTestCase.test_add_note">
     <configuration name="Unittests in test_add_record.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="ST_python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,6 +113,21 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_record.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_add_note.UntitledTestCase.test_add_note" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="ST_python_training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_add_note.UntitledTestCase.test_add_note&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_add_record_2.UntitledTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -159,6 +177,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_add_note.UntitledTestCase.test_add_note" />
         <item itemvalue="Python tests.pytest in test_add_note.py" />
         <item itemvalue="Python tests.pytest in test_add_record_2.py" />
         <item itemvalue="Python tests.pytest for test_add_record_2.UntitledTestCase" />
@@ -180,71 +199,62 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_add_note_py - 2019.07.09 at 18h 08m 33s.xml">
+    <history-entry file="pytest_in_test_add_note_py - 2019.08.02 at 15h 21m 08s.xml">
       <configuration name="pytest in test_add_note.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_add_note_py - 2019.07.09 at 18h 09m 16s.xml">
+    <history-entry file="pytest_in_test_add_note_py - 2019.08.02 at 15h 22m 29s.xml">
       <configuration name="pytest in test_add_note.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_add_note_py - 2019.07.09 at 18h 10m 30s.xml">
+    <history-entry file="pytest_in_test_add_note_py - 2019.08.02 at 15h 23m 22s.xml">
       <configuration name="pytest in test_add_note.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_add_note_py - 2019.07.10 at 08h 51m 44s.xml">
+    <history-entry file="pytest_in_test_add_note_py - 2019.08.02 at 15h 23m 45s.xml">
       <configuration name="pytest in test_add_note.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_add_note_py - 2019.07.10 at 15h 40m 03s.xml">
+    <history-entry file="pytest_in_test_add_note_py - 2019.08.02 at 15h 24m 29s.xml">
       <configuration name="pytest in test_add_note.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_add_note_py - 2019.07.10 at 15h 42m 09s.xml">
+    <history-entry file="pytest_in_test_add_note_py - 2019.08.02 at 15h 26m 59s.xml">
       <configuration name="pytest in test_add_note.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_add_note_py - 2019.07.10 at 15h 44m 17s.xml">
+    <history-entry file="pytest_in_test_add_note_py - 2019.08.02 at 15h 28m 09s.xml">
       <configuration name="pytest in test_add_note.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_add_note_py - 2019.07.10 at 18h 15m 56s.xml">
+    <history-entry file="pytest_in_test_add_note_py - 2019.08.02 at 15h 31m 35s.xml">
       <configuration name="pytest in test_add_note.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_add_note_py - 2019.07.10 at 18h 21m 19s.xml">
+    <history-entry file="pytest_in_test_add_note_py - 2019.08.02 at 15h 33m 20s.xml">
       <configuration name="pytest in test_add_note.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_add_note_py - 2019.07.10 at 18h 22m 59s.xml">
-      <configuration name="pytest in test_add_note.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_add_note_UntitledTestCase_test_add_note - 2019.08.02 at 15h 34m 22s.xml">
+      <configuration name="pytest for test_add_note.UntitledTestCase.test_add_note" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" sideWeight="0.50080776" side_tool="true" weight="0.24973656" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.24973656" />
-      <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" weight="0.24973656" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32936078" />
-      <window_info anchor="bottom" id="Python Console" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.2036923" side_tool="true" weight="0.3298731" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49802372" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" sideWeight="0.5019763" side_tool="true" weight="0.24973656" />
+      <window_info id="Favorites" order="2" sideWeight="0.50080776" side_tool="true" weight="0.24973656" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7963077" visible="true" weight="0.312026" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.88672286" visible="true" weight="0.13217768" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.11327714" side_tool="true" visible="true" weight="0.13217768" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49947312" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_add_record.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#24#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test_add_record.py" />
     <entry file="file://$PROJECT_DIR$/../Tests/test_Sberdata_tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -268,14 +278,14 @@
     <entry file="file://$PROJECT_DIR$/group.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_add_note.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="362">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
           </folding>
